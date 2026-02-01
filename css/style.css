@@ -8,7 +8,8 @@ body{
     min-height:100vh;
 }
 .container {
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     height: min-content;
     background-color: rgb(232, 232, 232);
     margin: auto;
@@ -25,7 +26,8 @@ body{
     border-radius: 10px;
 }
 .todo-input{
-    width: 470px;
+    width:95%;
+    max-width: 470px;
     height: 60px;
     border-radius: 10px;
     padding: 5px;
@@ -37,7 +39,8 @@ body{
 
 
 .AddTask {
-    width: 470px;
+    width: 95%;
+    max-width: ;
     height: 50px;
         background:linear-gradient(150deg,#8f2ae2,#40047d);
     border: none;
@@ -114,13 +117,16 @@ cursor: pointer;
     border: 1px solid #ccc;
     border-radius: 6px;
     padding: 5px 8px;
-    min-width: 0;         /* مهم مع flex علشان ميكبرش غصب */
+    min-width: 0;  
+    width: 90%;      /* مهم مع flex علشان ميكبرش غصب */
 }
 
 
 
 .Delete,.edit,.save{
-    width: 90px;
+
+    max-width: 80px;
+    width: 75px;
     height: 40px;
     background-color: #6c63ff;
     color: #fff;
