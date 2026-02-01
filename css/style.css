@@ -119,6 +119,7 @@ cursor: pointer;
     padding: 5px 8px;
     min-width: 0;  
     width: 90%;      /* مهم مع flex علشان ميكبرش غصب */
+    outline: none;
 }
 
 
@@ -193,4 +194,9 @@ transition: background-color .3s ease, transform .2s;
     background-color: #ccc;
     cursor: not-allowed;
     transform: none;
+}
+@media (max-width: 500px) {
+    .container {
+        transform: translate(-50%, -50%) scale(0.8); /* يصغر الكونتينر كله 80% */
+    }
 }
