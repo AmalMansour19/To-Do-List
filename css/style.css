@@ -195,7 +195,7 @@ body{
     .container {
         width: 90%;
         max-width: 350px;
-        transform: translate(-50%, -50%) scale(0.9);
+        transform: translate(-50%, -50%) scale(1);
     }
 
     .todo-input, .AddTask {
